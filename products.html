@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pick n Pay - Products</title>
+  <link rel="stylesheet" href="css.css">
+  <script defer src="picknpay_products.js"></script>
+</head>
+<body>
+  <header>
+    <div class="banner">
+      <img src="pick n pay.webp" alt="Pick n Pay Logo">
+      <p>SHOP BETTER, LIVE BETTER</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="register.html">Register</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Our Fresh Products</h2>
+
+    <div class="product-buttons">
+      <button onclick="showPnPCategory('dairy')">Dairy</button>
+      <button onclick="showPnPCategory('bakery')">Bakery</button>
+      <button onclick="showPnPCategory('fruitveg')">Fruit & Veg</button>
+    </div>
+
+    <!-- Product Sections -->
+    <div id="dairy" class="product-section">
+      <h3>Dairy Products</h3>
+      <div class="gallery">
+        <img src="milk.webp" alt="Milk">
+        <img src="cheese.webp" alt="Cheese">
+        <img src="yoghurt.webp" alt="Yogurt">    
+      </div>
+    </div>
+
+    <div id="bakery" class="product-section">
+      <h3>Bakery</h3>
+      <div class="gallery">
+        <img src="bread.webp" alt="Bread">
+        <img src="rolls.jpeg" alt="Rolls">
+        <img src="cake.webp" alt="Cake">
+      </div>
+    </div>
+
+    <div id="fruitveg" class="product-section">
+      <h3>Fruit & Vegetables</h3>
+      <div class="gallery">
+        <img src="apples.webp" alt="Apples">
+        <img src="carrots.webp" alt="Carrots">
+        <img src="banana.webp" alt="Bananas">
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pick N Pay. All rights reserved.</p>
+  </footer>
+</body>
+</html>
